@@ -41,7 +41,6 @@ class PieChartComponent extends Component {
               dataKey="value"
               cx="50%"
               cy="50%"
-              outerRadius={80}
               innerRadius={80}
               fill="#8884d8"
               label={({ percent }) => `${percent * 100}.toFixed(1)}%`}
