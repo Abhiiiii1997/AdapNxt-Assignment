@@ -1,0 +1,20 @@
+/* PieChartComponent.css */
+.graph-container {
+  background-color: #2a2a2a; /* Dark background as per the screenshot */
+  padding: 20px; /* Padding around the graph */
+  border-radius: 10px; /* Rounded corners for a smooth look */
+  color: #ffffff; /* White text color */
+  margin: 0 15px; /* Add margin to create a gap between the graph and pie chart */
+}
+
+h3 {
+  font-size: 16px;
+  margin-bottom: 20px; /* Space below the heading */
+  display: flex;
+  align-items: center; /* Align the SVG with the text */
+}
+
+.bi-info-circle {
+  margin-left: 8px; /* Space between the text and the icon */
+  vertical-align: middle;
+}
